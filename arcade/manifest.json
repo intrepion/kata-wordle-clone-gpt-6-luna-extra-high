@@ -1,6 +1,28 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-wordle-clone-gpt-6-luna-extra-high",
   "playUrl": "https://intrepion.github.io/kata-wordle-clone-gpt-6-luna-extra-high/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261103-01.jpg",
+      "sha256": "e3f0641e12d32e63a1be9e88f8b47a740aa357cc21c11a9b177b6dfa357d08fc",
+      "alt": "Wordle gameplay",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261103-01.png",
+        "sourceSha256": "24af674874a77559b204648b79e57cae83a11dd6de65b46dabd21953ce68ff00",
+        "captureCommit": "0bfa822e3c4f3a077b38b3e83ab99912aa13edea",
+        "workflowRunId": "41619359973",
+        "inputHashes": {
+          "game.js": "871f665fac6f90c5291ff381937f0ebfeed20bc4307d67c951ceb9b6a86e80dc",
+          "index.html": "685dc01e4621ba287da2ebc22eb8b963e04ca486cfa8ced38aaf8afddf6969e3",
+          "styles.css": "7edf969a4dcc22ff7521c6002550bbca9e0cec232e15755802d797f3b410df17",
+          "word-bank.js": "a7e7a1c613e451cefffc7412e11acf83c0a0a2743394fbdf4a6bca7d9d7c8d3e"
+        },
+        "publishedFilesVerifiedAt": "2026-11-03T10:27:53Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261103-record.json",
+        "captureRecordSha256": "4739dc5ce4965efc1365e38131af0a017d415e71eda6389fa3debf8be13ba53b"
+      }
+    }
+  ]
 }

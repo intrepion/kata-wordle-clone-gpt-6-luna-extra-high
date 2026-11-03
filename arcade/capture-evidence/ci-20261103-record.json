@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "0bfa822e3c4f3a077b38b3e83ab99912aa13edea",
+  "workflowCommit": "bb20fe33ac5ae0c5311d1afdfa26c6746b780dfe",
+  "runId": "41619359973",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "inputs": {
+    "game.js": "871f665fac6f90c5291ff381937f0ebfeed20bc4307d67c951ceb9b6a86e80dc",
+    "index.html": "685dc01e4621ba287da2ebc22eb8b963e04ca486cfa8ced38aaf8afddf6969e3",
+    "styles.css": "7edf969a4dcc22ff7521c6002550bbca9e0cec232e15755802d797f3b410df17",
+    "word-bank.js": "a7e7a1c613e451cefffc7412e11acf83c0a0a2743394fbdf4a6bca7d9d7c8d3e"
+  },
+  "screenshots": [
+    "gameplay-01.png"
+  ]
+}
