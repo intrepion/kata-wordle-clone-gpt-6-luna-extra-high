@@ -17,13 +17,13 @@ jobs:
       - run: npm init -y > /dev/null
       - run: mkdir -p pages && cp -R index.html game.js word-bank.js styles.css arcade pages/
       - run: npm install --no-save --ignore-scripts --package-lock=false playwright@1.63.0
-      - run: npx playwright install --with-deps chromium
+      - run: node node_modules/playwright/cli.js install --with-deps chromium
       - name: Capture genuine gameplay
         env:
           GAME_ID: kata-wordle-clone-gpt-6-luna-extra-high
           SITE_ROOT: pages
         run: |
-          export SOURCE_COMMIT="$(git rev-parse HEAD^)"
+          export SOURCE_COMMIT="0bfa822e3c4f3a077b38b3e83ab99912aa13edea"
           python3 -m http.server 4320 --bind 127.0.0.1 --directory "$SITE_ROOT" > /tmp/capture-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
