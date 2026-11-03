@@ -11,3 +11,7 @@ The daily answer is selected from a curated list of common five-letter words usi
 ## Word list
 
 Accepted guesses use the five-letter entries from [Tab Atkins Jr.'s wordle-list](https://github.com/tabatkins/wordle-list), distributed under the MIT license in [WORD-BANK-LICENSE.txt](WORD-BANK-LICENSE.txt). The answer list is a smaller curated subset.
+
+## Play online
+
+[Play on GitHub Pages](https://intrepion.github.io/kata-wordle-clone-gpt-6-luna-extra-high/). Return to the [Kata Arcade](https://intrepion.github.io/).
